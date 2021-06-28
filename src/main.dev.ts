@@ -22,8 +22,8 @@ console.log('👙 ~ file: main.dev.ts ~ line 19 ~ sqlite3', sqlite3);
 // console.log('👙 ~ file: main.dev.ts ~ line 21 ~ sqlite', sqlite);
 
 let db = new sqlite3.Database(
-  // './db/test.db',  // unix based operating system
-  'C:/db/test.db', // windows based operating system
+  './db/test.db',  // unix based operating system
+  // 'C:/db/test.db', // windows based operating system
   sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE,
   (err) => {
     if (err) {

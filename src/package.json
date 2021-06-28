@@ -14,10 +14,6 @@
     "postinstall": "yarn electron-rebuild"
   },
   "license": "MIT",
-  "dependencies": {
-    "sqlite3": "^5.0.2"
-  },
-  "devDependencies": {
-    "@types/sqlite3": "^3.1.7"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
